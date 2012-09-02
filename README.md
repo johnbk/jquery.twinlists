@@ -4,10 +4,9 @@ Simple Usage:
 $(document).ready(function() {
 	var mylist = [{
 		text: 'e',
-		value: 1,
-	default:
-		true,
-		disabled: false
+		value: 1,		
+	    default: true, // by default this item is selected, i.e. this is placed in 'selected' list initially
+		disabled: false // this item is disabled so that it can't be moved from the list it is in
 	}, {
 		text: 'c',
 		value: 3,
